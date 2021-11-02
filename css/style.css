@@ -3,13 +3,20 @@
     margin: 0;
 }
 
+a:hover{
+    color:#A80022
+}
 
+a:active{
+    color:red
+}
 
 /*
 =================
 BODY
 =================
 */
+
 html, body {
     font-size: 100%;
     font-family: "Comic-sans MS", cursive, sans-serif;
@@ -17,18 +24,17 @@ html, body {
     max-width: 1024px;
 }
 
-body{
+body {
     border: 1px solid #000;
 }
-
-
 
 /*
 =================
 HEADER
 =================
 */
-header{
+
+header {
     color: #F3C428;
     background-color: #A80022;
     text-align: center;
@@ -39,173 +45,220 @@ header{
     padding: 1em;
     padding-top: 0.7em;
 }
-header h1{
+
+header h1 {
     background-image: url(../materialePerStudenti/images/angry-birds-logo-nero.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    text-indent: -999999999999em;
+    text-indent: -999999em;
     font-size: 3em;
 }
 
-header h2{
+header h2 {
     font-size: 2em;
     margin-top: 0.3em;
 }
-
-
 
 /*
 =================
 BREADCRUMB
 =================
 */
-#breadcrumb{
+
+#breadcrumb {
     background-color: #0E1E38;
     color: #F3C428;
     font-size: 1.1em;
     padding: 0.5em 0em 0.5em 1.0em;
 }
 
+#breadcrumb a{
+    color:#fcec92;
+}
 
+#breadcrumb a:hover{
+    color:#A80022
+}
 
+#breadcrumb a:active{
+    color:red
+}
 /*
 =================
 MENU'
 =================
 */
-#menu{
-    float:left;
+
+#menu {
+    float: left;
     width: 20%;
     font-size: 1.3em;
     padding: 0.8em;
 }
 
-#menu ul{
+#menu ul {
     list-style-type: none;
 }
 
-#menu ul li{
+#menu ul li {
     margin-top: 0.5em;
 }
 
-#currentLink{
+#currentLink {
     background-image: url(../materialePerStudenti/images/red.png);
     background-position: left center;
     background-size: 1.4em;
     background-repeat: no-repeat;
     text-indent: 1.5em;
-
 }
-
-
 
 /*
 =================
 CONTENUTO
 =================
 */
-#content{
-    border: 1px solid #0000;
+
+#content {
+    border-left: 1px solid #000;
     margin-left: 25%;
     padding: 2.0em 1.0em 1.0em 3.5em;
 }
 
-
+#imgHomePage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*
 =================
 NOTIZIE
 =================
 */
-#BreakingNews{
-    float:right;
+
+#BreakingNews {
+    float: right;
     width: 20%;
-    border: 1px dashed black;
+    border: 1px dashed #000;
     padding: 0.5em;
     margin-top: 1em;
     margin-right: 2%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
-#BreakingNews h2{
+#BreakingNews h2 {
     font-size: 1.2em;
     background-color: #F3C42B;
     padding: 0.2em;
 }
 
-
-#BreakingNews dt{
+#BreakingNews dt {
     margin-left: 0.8em;
     font-weight: bold;
 }
 
-
-#BreakingNews dd{
+#BreakingNews dd {
     margin-left: 1.5em;
 }
-
-
 
 /*
 =================
 FOOTER
 =================
 */
-footer{
+
+footer {
     clear: both;
     text-align: center;
     font-size: 0.8em;
-    border-top: 1px solid #0000;
+    border-top: 1px solid #000;
     padding: 0.5em;
 }
 
-footer p{
+footer p {
     display: inline;
     font-style: italic;
 }
 
-footer .imgValidCode{
+footer .imgValidCode {
     vertical-align: middle;
     margin-left: 1.0em;
     margin-right: 1.0em;
     margin-bottom: 1.0em;
 }
 
-
-
-
-
-
-
 /*
 ===================
 PERSONAGGI
 ===================
 */
-#characterStory dd{
 
-}
-
-article h2{
+article h2 {
     background-color: #A80022;
     color: white;
     padding: 0.5em;
     font-size: 1.1em;
 }
 
-article div{
+article div {
     border: 1px solid #000;
     border-top: none;
     padding: 0.5em;
     margin-bottom: 1.0em;
     min-height: 160px;
-
 }
 
-article img{
+article div p {
+    margin-left: 25%;
+}
+
+article img {
     float: left;
     width: 20%;
     margin-right: 1em;
 }
 
+/*
+=============
+VERSIONI
+=============
+*/
+
+#version{
+    border: 1px solid #000;
+    border-top: none;
+    margin-bottom: 2%;
+
+}
+
+/*
+=============
+CURIOSITA'
+=============
+*/
+#curiosita{
+    border-left: 1px solid #000;
+    margin-left: 25%;
+    padding: 0.5em 0em 0.5em 1.0em;
+    
+}
+
+#curiosita h2{
+    margin-top: 0.8em;
+}
+
+#curiosita h1{
+    text-align: center;
+}
+
+#titleImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#cake{
+    width: 30%;
+}
