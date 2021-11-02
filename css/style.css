@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+
+
+/*
+=================
+BODY
+=================
+*/
 html, body {
     font-size: 100%;
     font-family: "Comic-sans MS", cursive, sans-serif;
@@ -14,11 +21,18 @@ body{
     border: 1px solid #000;
 }
 
+
+
+/*
+=================
+HEADER
+=================
+*/
 header{
     color: #F3C428;
     background-color: #A80022;
     text-align: center;
-    background-image: url(materialePerStudenti/images/sfondo.png);
+    background-image: url(../materialePerStudenti/images/sfondo.png);
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -26,7 +40,7 @@ header{
     padding-top: 0.7em;
 }
 header h1{
-    background-image: url(materialePerStudenti/images/angry-birds-logo-nero.png);
+    background-image: url(../materialePerStudenti/images/angry-birds-logo-nero.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,9 +53,159 @@ header h2{
     margin-top: 0.3em;
 }
 
+
+
+/*
+=================
+BREADCRUMB
+=================
+*/
 #breadcrumb{
     background-color: #0E1E38;
     color: #F3C428;
     font-size: 1.1em;
     padding: 0.5em 0em 0.5em 1.0em;
 }
+
+
+
+/*
+=================
+MENU'
+=================
+*/
+#menu{
+    float:left;
+    width: 20%;
+    font-size: 1.3em;
+    padding: 0.8em;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    margin-top: 0.5em;
+}
+
+#currentLink{
+    background-image: url(../materialePerStudenti/images/red.png);
+    background-position: left center;
+    background-size: 1.4em;
+    background-repeat: no-repeat;
+    text-indent: 1.5em;
+
+}
+
+
+
+/*
+=================
+CONTENUTO
+=================
+*/
+#content{
+    border: 1px solid #0000;
+    margin-left: 25%;
+    padding: 2.0em 1.0em 1.0em 3.5em;
+}
+
+
+
+/*
+=================
+NOTIZIE
+=================
+*/
+#BreakingNews{
+    float:right;
+    width: 20%;
+    border: 1px dashed black;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+
+#BreakingNews h2{
+    font-size: 1.2em;
+    background-color: #F3C42B;
+    padding: 0.2em;
+}
+
+
+#BreakingNews dt{
+    margin-left: 0.8em;
+    font-weight: bold;
+}
+
+
+#BreakingNews dd{
+    margin-left: 1.5em;
+}
+
+
+
+/*
+=================
+FOOTER
+=================
+*/
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px solid #0000;
+    padding: 0.5em;
+}
+
+footer p{
+    display: inline;
+    font-style: italic;
+}
+
+footer .imgValidCode{
+    vertical-align: middle;
+    margin-left: 1.0em;
+    margin-right: 1.0em;
+    margin-bottom: 1.0em;
+}
+
+
+
+
+
+
+
+/*
+===================
+PERSONAGGI
+===================
+*/
+#characterStory dd{
+
+}
+
+article h2{
+    background-color: #A80022;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.1em;
+}
+
+article div{
+    border: 1px solid #000;
+    border-top: none;
+    padding: 0.5em;
+    margin-bottom: 1.0em;
+    min-height: 160px;
+
+}
+
+article img{
+    float: left;
+    width: 20%;
+    margin-right: 1em;
+}
+
