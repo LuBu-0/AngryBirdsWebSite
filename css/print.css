@@ -3,14 +3,6 @@
     margin: 0;
 }
 
-a:hover{
-    color:#A80022
-}
-
-a:active{
-    color:red
-}
-
 /*
 =================
 BODY
@@ -56,9 +48,6 @@ BREADCRUMB
     padding: 0.5em 0em 0.5em 1.0em;
 }
 
-#breadcrumb a{
-    color:#fcec92;
-}
 
 /*
 =================
@@ -153,15 +142,12 @@ PERSONAGGI
 */
 
 article h2 {
-    background-color: #A80022;
-    color: white;
     padding: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 article div {
     border: 1px solid #000;
-    border-top: none;
     padding: 0.5em;
     margin-bottom: 1.0em;
     min-height: 160px;
@@ -184,10 +170,7 @@ VERSIONI
 */
 
 #version{
-    border: 1px solid #000;
-    border-top: none;
     margin-bottom: 2%;
-
 }
 
 /*
@@ -196,8 +179,6 @@ CURIOSITA'
 =============
 */
 #curiosita{
-    border-left: 1px solid #000;
-    margin-left: 25%;
     padding: 0.5em 0em 0.5em 1.0em;
     
 }
@@ -217,7 +198,7 @@ CURIOSITA'
     width: 50%;
 }
 
-#cake{
+.cake{
     width: 30%;
     vertical-align: middle;
 }
@@ -236,10 +217,5 @@ STORIA
 }
 
 #upLink {
-    margin-left: 90%;}
-
-/*
-#content img{
-    
+    display: none;
 }
-*/

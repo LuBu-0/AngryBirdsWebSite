@@ -13,11 +13,6 @@
     margin-left: 0;
     border-top: 1px solid #000;
 }
-
-footer .imgValidCode{
-    width: 10%;
-}
-
-footer p{
-    width: 75%;
+header h1:hover{
+    transform: none;
 }
