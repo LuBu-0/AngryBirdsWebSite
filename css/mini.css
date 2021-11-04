@@ -13,6 +13,12 @@
     margin-left: 0;
     border-top: 1px solid #000;
 }
+
+#curiosita{
+    margin-left: 0;
+    border-top: 1px solid #000;
+}
+
 header h1:hover{
     transform: none;
 }
