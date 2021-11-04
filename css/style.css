@@ -268,7 +268,7 @@ CURIOSITA'
     width: 50%;
 }
 
-#cake{
+.cake{
     width: 30%;
     vertical-align: middle;
 }
@@ -287,7 +287,8 @@ STORIA
 }
 
 #upLink {
-    margin-left: 90%;}
+    margin-left: 90%;
+}
 
 /*
 #content img{
