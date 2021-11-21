@@ -1,24 +1,69 @@
-#BreakingNews{
+#BreakingNews {
     float: none;
     width: 90%;
 }
 
-#menu{
+#menu {
     float: none;
     width: 90%;
     font-size: 1.5em;
 }
 
-#content{
+#content {
     margin-left: 0;
     border-top: 1px solid #000;
 }
 
-#curiosita{
+#curiosita {
     margin-left: 0;
     border-top: 1px solid #000;
 }
 
-header h1:hover{
+header h1:hover {
     transform: none;
+}
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr {
+    display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead, tfoot {
+    display: none;
+    /*  padding: 0;
+    white-space:normal;*/
+}
+
+th {
+    background-color: #A80022;
+    color: white;
+}
+
+td {
+    /* Behave  like a "row" */
+    /*border: none;*/
+    /*border-bottom: 1px solid #eee;*/
+    position: relative;
+    padding-left: 50%;
+}
+
+/*
+Label the data
+*/
+td[data-title]:before {
+    content: attr(data-title)":\00A0";
+    position: absolute;
+    width: 50%;
+    font-weight: bold;
+    left: 0em;
+}
+
+#hide {
+    display: block;
+}
+
+#multi {
+    border: 1px solid black;
+    padding-top: 0em;
 }
